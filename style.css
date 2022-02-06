@@ -1,0 +1,154 @@
+* {
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+    background-color: white;
+}
+
+#vibrantlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#europelogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.europe{
+    font-size: 50px;
+    color: black;
+    background-color: #00ff9d;
+    padding: 20px;
+    font-weight: bold;
+    border-color: 5px solid blue;
+}
+
+.europe:hover{
+    background-color: pink;
+    text-align: center;
+}
+
+#continents{
+    text-align: center;
+}
+
+.backhome{
+    font-size: 50px;
+    color: black;
+    background-color: #00ff9d;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.backhome:hover{
+    text-align: center;
+    background-color: pink;
+}
+
+#europepage{
+    text-align: center;
+}
+
+
+/*SPINNING WORLD*/
+
+.effect{
+    width: 400px;
+    height: 396px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -400px;
+    box-shadow: inset -10px 0px 10px 5px #000;
+}
+
+.image {
+    height:100%;
+    animation: spin 15s linear infinite;
+}
+
+.worldarea{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+@keyframes spin {
+    0%{
+        margin-left: -400px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+/* GOALS */
+
+.goals{
+    background-color: #000098;
+    margin: cover;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+/* EUROPE COUNTRY LIST */
+
+.europeancountries{
+    background-color: #000098;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+a {
+    font-size: 25px;
+    color: white;
+}
+
+
+.countrytovisit {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    float: left;
+}
+
+/* SWITZERLAND */
+
+.CHflag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CHheader {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.CHtitles {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    display: inline-flex;
+}
+
+.CHcoolthings {
+    float: left;
+    width: 100%
+}
